@@ -43,19 +43,19 @@ body{
 }
 
 .navigation ul .list:nth-child(1).active ~ .indicator{
-    transform: translateX(calc(70px * 0))
+    transform: translateX(calc(65px * 0))
 }
 .navigation ul .list:nth-child(2).active ~ .indicator{
-    transform: translateX(calc(70px * 1))
+    transform: translateX(calc(65px * 1))
 }
 .navigation ul .list:nth-child(3).active ~ .indicator{
-    transform: translateX(calc(70px * 2))
+    transform: translateX(calc(65px * 2))
 }
 .navigation ul .list:nth-child(4).active ~ .indicator{
-    transform: translateX(calc(70px * 3))
+    transform: translateX(calc(65px * 3))
 }
 .navigation ul .list:nth-child(5).active ~ .indicator{
-    transform: translateX(calc(70px * 4))
+    transform: translateX(calc(65.5px * 4))
 }
 .navigation ul .list a{
     position:relative;
@@ -100,7 +100,7 @@ body{
     position: absolute;
     width: 70px;
     height: 70px;
-    background: var(--sec);
+    background: white;
     border-radius: 50%;
     top: -50%;
     border: 6px solid var(--bkc);
