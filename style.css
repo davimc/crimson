@@ -100,7 +100,7 @@ body{
     position: absolute;
     width: 70px;
     height: 70px;
-    background: white;
+    background: var(--nav);
     border-radius: 50%;
     top: -50%;
     border: 6px solid var(--bkc);
